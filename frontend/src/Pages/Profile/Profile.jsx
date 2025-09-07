@@ -1,8 +1,8 @@
-import './App.css'
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home/Home';
-import LoginPage from './Pages/LoginPage/LoginPage';
-import Profile from "./Pages/Profile";
+import Home from './Pages/Home/Home.jsx';
+import LoginPage from './Pages/LoginPage/LoginPage.jsx';
+import Profile from "./Pages/Profile/Profile.jsx";
 import './index.css';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import { HeaderMegaMenu } from './Components/Navbar/HeaderMegaMenu';
